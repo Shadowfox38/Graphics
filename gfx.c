@@ -192,7 +192,7 @@ int gfx_ypos()
 	return saved_ypos;
 }
 
-/* Flush all previous output to the window. */
+/* Flush all previous output to the window which was present before. */
 
 void gfx_flush()
 {
